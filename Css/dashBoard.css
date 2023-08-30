@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+:root{
+    --bg :linear-gradient(0deg, rgb(0 0 0 / 40%), rgb(0 0 0 / 60%)), url('/Images/Gradient-Background.webp');
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p{
+    color: white;
+    font-size: 75px;
+}
+

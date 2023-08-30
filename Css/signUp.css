@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    border-radius: 10px;
+}
+p{
+    color: red;
+    font-size: 20px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: var(--bg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+:root{
+    --bg :linear-gradient(0deg, rgb(0 0 0 / 40%), rgb(0 0 0 / 60%)), url('/Images/Gradient-Background.webp');
+    ;
+    /* --bgform :linear-gradient(0deg, rgb(0 0 0 / 70%), rgb(0 0 0 / 80%)), url('/Images/Gradient-Background.webp'); */
+    ;
+}
+.container{
+    height: 550px;
+    width: 400px;
+    border: black solid 1px ;
+    display: flex;
+    background: var(--bgform);
+    justify-content: flex-end;
+    flex-direction: column;
+}
+form{
+    height: 83%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+input{
+    color: black;
+    width: 250px;
+    height: 40px;
+}
+
+#signUpBtn{
+    height: 40;
+    width: 80px;
+    /* border-radius: white solid 2px;
+    border: 20%; */
+    background-color: black;
+    color: white;
+}
